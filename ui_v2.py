@@ -70,13 +70,13 @@ section[data-testid="stSidebar"] > div{padding-top:.9rem}
 }
 [data-testid="stSidebar"] .stRadio div[role="radiogroup"] label:has(input:checked){
   background:linear-gradient(90deg,#176FF0,#155FCB);
-  color:white;
+  color:#FFFFFF;
   font-weight:800;
   box-shadow:0 6px 18px rgba(22,119,255,.2);
 }
 [data-testid="stSidebar"] .stRadio div[role="radiogroup"] label p{font-size:13px}
 [data-testid="stSidebar"] [data-testid="stCaptionContainer"]{color:#708AA5}
-[data-testid="stSidebar"] hr{border-color:#173A5F !important}
+[data-testid="stSidebar"] hr{border-color:#E2E8F0 !important}
 h1,h2,h3,h4,h5{color:var(--text);letter-spacing:-.035em}
 h1{font-weight:800}
 h2,h3{font-weight:750}
@@ -87,33 +87,33 @@ p,li{line-height:1.55}
   border:1px solid var(--line);
   border-radius:14px;
   padding:15px 17px;
-  box-shadow:0 10px 28px rgba(0,0,0,.18);
+  box-shadow:0 6px 18px rgba(15,23,42,.06);
 }
-[data-testid="stMetricLabel"]{color:#89A3BD}
-[data-testid="stMetricValue"]{color:#F5F9FF;font-weight:800}
+[data-testid="stMetricLabel"]{color:#64748B}
+[data-testid="stMetricValue"]{color:#172033;font-weight:800}
 [data-testid="stMetricDelta"] svg{display:none}
 [data-testid="stVerticalBlockBorderWrapper"]{
   border-color:var(--line) !important;
   border-radius:14px !important;
   background:#FFFFFF !important;
-  box-shadow:0 10px 28px rgba(0,0,0,.16);
+  box-shadow:0 6px 18px rgba(15,23,42,.06);
 }
 .stButton > button,.stFormSubmitButton > button{
   border-radius:10px;
   min-height:2.65rem;
   font-weight:750;
-  border-color:#23517D;
+  border-color:#CBD5E1;
   background:#FFFFFF;
   color:#334155;
 }
 .stButton > button:hover,.stFormSubmitButton > button:hover{
-  border-color:#2D8CFF;
-  color:white;
+  border-color:#1677FF;
+  color:#FFFFFF;
 }
 .stButton > button[kind="primary"],.stFormSubmitButton > button[kind="primary"]{
   background:linear-gradient(135deg,#1677FF,#1262D5);
   border-color:#1677FF;
-  color:white;
+  color:#FFFFFF;
 }
 .stTextInput input,.stTextArea textarea,.stSelectbox div[data-baseweb="select"] > div{
   background:#FFFFFF !important;
@@ -121,16 +121,16 @@ p,li{line-height:1.55}
   border:1px solid #CBD5E1 !important;
   border-radius:10px !important;
 }
-.stTextInput input::placeholder,.stTextArea textarea::placeholder{color:#6F8BA6}
+.stTextInput input::placeholder,.stTextArea textarea::placeholder{color:#64748B}
 .stTabs [data-baseweb="tab-list"]{gap:7px;border-bottom:1px solid var(--line)}
 .stTabs [data-baseweb="tab"]{
   color:#64748B;
   border-radius:9px 9px 0 0;
   padding:8px 12px;
 }
-.stTabs [aria-selected="true"]{color:#fff !important;background:#102B48}
+.stTabs [aria-selected="true"]{color:#172033 !important;background:#EAF2FF;border-bottom:2px solid #1677FF}
 .stDataFrame{border:1px solid var(--line);border-radius:12px;overflow:hidden}
-hr{border-color:#173A5F !important}
+hr{border-color:#E2E8F0 !important}
 
 /* StockDash brand */
 .planx-brand{
@@ -180,7 +180,7 @@ hr{border-color:#173A5F !important}
   margin-bottom:7px;
 }
 .planx-hero h1{margin:0;font-size:30px;line-height:1.18}
-.planx-hero p{margin:8px 0 0;color:#91A8C0;font-size:13px}
+.planx-hero p{margin:8px 0 0;color:#64748B;font-size:13px}
 .planx-card{
   background:#FFFFFF;
   border:1px solid #E2E8F0;
@@ -189,9 +189,9 @@ hr{border-color:#173A5F !important}
   min-height:108px;
   box-shadow:0 9px 24px rgba(0,0,0,.14);
 }
-.planx-card-title{font-size:11px;color:#8FA8C2;margin-bottom:7px;font-weight:700}
-.planx-card-value{font-size:22px;color:#F7FAFD;font-weight:850;letter-spacing:-.035em}
-.planx-card-note{margin-top:6px;font-size:10px;color:#6F8BA6}
+.planx-card-title{font-size:11px;color:#64748B;margin-bottom:7px;font-weight:700}
+.planx-card-value{font-size:22px;color:#172033;font-weight:850;letter-spacing:-.035em}
+.planx-card-note{margin-top:6px;font-size:10px;color:#64748B}
 .planx-empty{
   background:#F8FAFC;
   border:1px dashed #2A557E;
@@ -210,9 +210,9 @@ hr{border-color:#173A5F !important}
   border-radius:999px;
   font-size:9px;
 }
-.planx-status-ok{color:#55E2B0;background:#092D25;border-color:#155E4A}
-.planx-status-wait{color:#F5C96A;background:#302611;border-color:#6B521F}
-.planx-status-bad{color:#FF7189;background:#351923;border-color:#6D2638}
+.planx-status-ok{color:#087F5B;background:#ECFDF5;border-color:#A7F3D0}
+.planx-status-wait{color:#9A6700;background:#FFFBEB;border-color:#FDE68A}
+.planx-status-bad{color:#C6284A;background:#FFF1F2;border-color:#FECDD3}
 
 /* Shared dashboard helpers */
 .px-market-strip{
@@ -227,8 +227,8 @@ hr{border-color:#173A5F !important}
   border-radius:11px;
   padding:9px 12px;
 }
-.px-market-item span{display:block;color:#6F8BA6;font-size:9px}
-.px-market-item strong{display:block;color:#EAF3FC;font-size:15px;margin-top:3px}
+.px-market-item span{display:block;color:#64748B;font-size:9px}
+.px-market-item strong{display:block;color:#172033;font-size:15px;margin-top:3px}
 .px-up{color:var(--up) !important}.px-down{color:var(--down) !important}.px-green{color:var(--green) !important}
 
 @media(max-width:900px){
@@ -294,7 +294,7 @@ def empty_state(title: str, message: str):
     st.markdown(
         f"""
 <div class="planx-empty">
-  <strong style="color:#EAF3FC">{html.escape(title)}</strong><br>
+  <strong style="color:#172033">{html.escape(title)}</strong><br>
   <span>{html.escape(message)}</span>
 </div>
 """,
